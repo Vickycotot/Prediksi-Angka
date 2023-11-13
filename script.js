@@ -11,7 +11,7 @@ let model;
 
 /* Loads trained model */
 async function init() {
-    model = await tf.loadModel("model.json");
+    model = await tf.loadModel("model/model.json");
 }
 
 function drawStartEvent(event) {
